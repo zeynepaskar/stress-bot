@@ -151,7 +151,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 # ── Запуск бота ───────────────────────────────────────────────────────────
 def main() -> None:
-    app = Application.builder().token(TOKEN).proxy("socks5://127.0.0.1:1080").build()
+    app = Application.builder().token(TOKEN).build()
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
         states={
