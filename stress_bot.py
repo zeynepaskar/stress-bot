@@ -11,7 +11,7 @@ from telegram.ext import (
 
 # ── Настройки ──────────────────────────────────────────────────────────────
 import os
-TOKEN = os.getenv("8939700240:AAHAAzM89yvCIhdIxsW8YZzZ3KKbjUhAD9c")
+TOKEN = os.getenv("TOKEN")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
